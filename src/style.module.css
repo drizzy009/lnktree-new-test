@@ -1,0 +1,9 @@
+.main {
+   display: flex;
+   flex-direction: column;
+  }
+
+.customBorder {
+   border-top: 1px solid #000 !important;
+
+}
