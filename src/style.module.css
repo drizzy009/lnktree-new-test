@@ -5,5 +5,26 @@
 
 .customBorder {
    border-top: 1px solid #000 !important;
+}
 
+@media  (max-width: 768px) {
+   .footerStyle {
+      flex-direction: row !important;
+      gap: 24px !important;
+   }
+   .footerStyle2 {
+      flex-wrap: wrap !important;
+      gap: 24px !important;
+   }
+   
+}
+@media (max-width: 1345px) {
+   .footerStyle {
+      flex-direction: row;
+   }
+   .footerStyle2 {
+      flex-wrap: wrap;
+      gap: 94px;
+   }
+   
 }
