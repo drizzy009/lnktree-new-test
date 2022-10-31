@@ -6,6 +6,10 @@
 .customBorder {
    border-top: 1px solid #000 !important;
 }
+.linkHover:hover {
+   background-color: #D0D5DD;
+   transition: ease-in 0.2s;
+}
 
 @media  (max-width: 768px) {
    .footerStyle {
@@ -16,6 +20,12 @@
       flex-wrap: wrap !important;
       gap: 24px !important;
    }
+   .linkPadding {
+      padding: unset !important;
+   }
+   .socialsecBottom {
+      margin-bottom: 24px;
+   }
    
 }
 @media (max-width: 1345px) {
@@ -24,7 +34,12 @@
    }
    .footerStyle2 {
       flex-wrap: wrap;
-      gap: 94px;
+      gap: 70px;
    }
-   
+   .linkPadding {
+      padding: unset !important;
+   }
+   .socialsecBottom {
+      margin-bottom: 24px;
+   }
 }

@@ -5,6 +5,7 @@ import slack from "./slack.png";
 import Zuri_Internship_Logo from "./Zuri_Internship_Logo.png";
 import Icon from "./Icon.png";
 import share from "./share.svg";
+import profile__img2 from "./profile__img .webp"
 
 
 
@@ -15,5 +16,6 @@ export {
     slack,
     Zuri_Internship_Logo,
     Icon,
-    share
+    share,
+    profile__img2
 }

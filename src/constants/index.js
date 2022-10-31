@@ -1,33 +1,30 @@
-import {
-  I4G,
-  arrow,
-  Icon,
-  profile__img,
-  slack,
-  Zuri_Internship_Logo,
-} from '../assets';
-import profile from '../components/Profile';
+import { I4G } from '../assets';
 
 export const profileLinks = [
   {
-    id: 'twitter',
-    title: 'Twitter',
-    links: 'https://training.zuria.team/',
+    id: 'btn__zuri',
+    title: 'Twitter Link',
+    links: 'https://training.zuri.team/',
   },
   {
-    id: 'zuriteam',
+    id: 'books',
     title: 'Zuri Team',
-    links: 'https://training.zurai.team/',
+    links: 'http://books.zuri.team/',
   },
   {
-    id: 'zuribooks',
+    id: 'book__python',
     title: 'Zuri Books',
-    links: 'https://training.zauri.team/',
+    links: 'https://books.zuri.team/',
   },
   {
     id: 'pythonbooks',
-    title: 'Python Books',
-    links: 'https://traininag.zuri.team/',
+    title: 'Background Check for Coders',
+    links: 'https://background.zuri.team/',
+  },
+  {
+    id: 'book__design',
+    title: 'Design Books',
+    links: 'https://books.zuri.team/design-rules',
   },
 ];
 export const profileLinks2 = [
