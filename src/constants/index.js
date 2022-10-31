@@ -14,7 +14,7 @@ export const profileLinks = [
   {
     id: 'book__python',
     title: 'Zuri Books',
-    links: 'https://books.zuri.team/',
+    links: 'https://books.zuri.team/python-for-beginners?ref_id=drizzy0x',
   },
   {
     id: 'pythonbooks',

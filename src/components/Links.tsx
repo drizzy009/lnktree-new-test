@@ -21,7 +21,7 @@ const Links = () => {
             key={lnk.id}>
                 <a href={`${lnk.links}`}
                     id={lnk.id}
-                    className={`font-medium text-gray-900 font-inter py-4 bg-gray-200 my-4 rounded w-[100%] block ${styles.linkHover}`}>
+                    className={`font-medium text-gray-900 font-inter py-6 px-8 bg-gray-200 my-4 rounded w-[100%] block ${styles.linkHover}`}>
                     {lnk.title}
                 </a>
             </li>
