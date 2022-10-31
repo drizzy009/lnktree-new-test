@@ -2,7 +2,7 @@ import { arrow, profile__img, share } from '../assets';
 
 const Profile = () => {
   return (
-    <div className="pt-16">
+    <div className="pt-8">
       <div className="flex flex-col items-center p-0 isolate">
         <img
           id="profile__img"
@@ -18,7 +18,7 @@ const Profile = () => {
         /*}
         {/*Desktop share*/}
         <img
-          className="sm:block hidden absolute w-[20px] h-[20px] right-[208px] top-[87px] cursor-pointer"
+          className="sm:block hidden absolute w-[20px] h-[20px] right-[208px] top-[52px] cursor-pointer"
           src={arrow}
           alt=""
         />
